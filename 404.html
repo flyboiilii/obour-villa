@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found</title>
+<script>
+(function(){var p=location.pathname;var i=Math.max(p.indexOf('/en/'),p.indexOf('/ar/'));var base=i>-1?p.slice(0,i+1):p.replace(/[^\/]*$/,'');
+var once;try{once=sessionStorage.getItem('nf');sessionStorage.setItem('nf','1')}catch(e){}
+if(!once){location.replace(base)}else{document.addEventListener('DOMContentLoaded',function(){document.getElementById('m').style.display='block';document.getElementById('en').href=base+'en/';document.getElementById('ar').href=base+'ar/'})}})();
+</script>
+<style>body{font-family:Georgia,serif;background:#14213d;color:#fff;display:flex;min-height:100vh;align-items:center;justify-content:center;text-align:center;padding:20px}a{color:#e5cf9c;font-size:22px;margin:0 14px}#m{display:none}</style>
+</head><body><div id="m"><p>This page is not available. Choose a language:</p><p><a id="en" href="en/">English</a><a id="ar" href="ar/" lang="ar">العربية</a></p></div></body></html>

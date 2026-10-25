@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://flyboiilii.github.io/obour-villa/sitemap.xml
